@@ -1,0 +1,135 @@
+(footprint "IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T footprint")
+	(tags "IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T footprint C42411119")
+	(property "Reference" "L1"
+		(at 0 -2.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6fe856a2-7875-4b09-a646-cc6bc6292f33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3.3u"
+		(at 0 2.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b690969-4395-4aaf-9b68-a26258d4bb01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "JLCPCB:IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17586463-102e-4da1-bf3a-dae0ebc34bf3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f446076-64f3-4d36-bd32-d92d37076f97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "432087da-b0c9-4eff-815c-a08e235ded62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.1 -0.8)
+		(end 0.1 -0.8)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a77050c-45f7-4ea8-b169-38e60f006752")
+	)
+	(fp_line
+		(start -0.1 0.8)
+		(end 0.1 0.8)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b34e6c7-c63c-41b6-ad83-b365c23eee03")
+	)
+	(fp_circle
+		(center -1 -1.1)
+		(end -0.9 -1.1)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "aa6bd15b-367e-4c23-a788-69cddefbb4fc")
+	)
+	(fp_text user "REF**"
+		(at 0 4.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c254359-b63d-4a4c-b422-8b6fce94766c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 0)
+		(size 0.7 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0b334617-63b7-4b74-a6a3-1627ca5a4d15")
+	)
+	(pad "2" smd rect
+		(at 0.7 0)
+		(size 0.7 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3165e8fc-9f44-4a81-bb47-3f7dbab85902")
+	)
+	(model "${USER_MODEL_DIR}/IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
